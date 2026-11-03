@@ -6,6 +6,6 @@ import { defineConfig } from 'vite';
 // For a custom domain, build with BASE_PATH=/ (see README).
 export default defineConfig(({ command }) => ({
   plugins: [react()],
-  base: command === 'build' ? process.env.BASE_PATH || '/bunch-of-love/' : '/',
+  base: command === 'build' ? process.env.BASE_PATH || '/bunch-of-love-website/' : '/',
   server: { host: '0.0.0.0', port: 3000, allowedHosts: true },
 }));
