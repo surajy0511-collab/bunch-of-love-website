@@ -38,21 +38,18 @@ export const PRODUCTS: Product[] = [
   p('Sunshine Gerbera Posy', 899, 'Below1000', 'Sunshine Gerbera Posy-899-Below1000.jpg', ['Graduation', 'Farewell', 'Welcome Guests']),
   p('Magenta Mum Burst', 849, 'Below1000', 'Magenta Mum Burst-849-Below1000.jpg', ['Farewell', 'Graduation']),
   p('Pure White Alstroemeria Whisper', 799, 'Below1000', 'Pure White Alstroemeria Whisper-799-Below1000.jpg', ['Corporate', 'Welcome Guests']),
-  p("Snowdrift Baby's Breath", 499, 'Below1000', "Snowdrift Baby's Breath-499-Below1000.jpg", ['Welcome Guests', 'Graduation']),
-  p('Violet Aster Meadow', 999, 'Below1000', 'Violet Aster Meadow-999-Below1000.jpg', ['Farewell', 'Graduation']),
+  p('Violet Aster Meadow', 750, 'Below1000', 'Violet Aster Meadow-999-Below1000.jpg', ['Farewell', 'Graduation']),
   p('Rosy Alstroemeria Cone', 849, 'Below1000', 'Rosy Alstroemeria Cone-849-Below1000.jpg', ['Farewell', 'Welcome Guests']),
   p('Peach Blush Gerbera Cloud', 999, 'Below1000', 'Peach Blush Gerbera Cloud-999-Below1000.jpg', ['Graduation', 'Farewell']),
   p('Petal Pink Alstroemeria Wrap', 899, 'Below1000', 'Petal Pink Alstroemeria Wrap-899-Below1000.jpg', ['Farewell', 'Welcome Guests']),
-  p('Plum Chrysanthemum Bunch', 799, 'Below1000', 'Plum Chrysanthemum Bunch-799-Below1000.jpg', ['Corporate', 'Farewell']),
-  p('Mini Sweetheart Surprise Bouquet', 549, 'Below1000', 'Mini Sweetheart Surprise Bouquet-549-Below1000.jpg', ['Farewell', 'Graduation']),
   p('Rose Speckle Alstroemeria', 949, 'Below1000', 'Rose Speckle Alstroemeria-949-Below1000.jpg', ['Welcome Guests', 'Farewell']),
   p('Candy Pink Gerbera Posy', 799, 'Below1000', 'Candy Pink Gerbera Posy-799-Below1000.jpg', ['Graduation', 'Welcome Guests']),
   p('Monochrome Daisy Mums', 899, 'Below1000', 'Monochrome Daisy Mums-899-Below1000.jpg', ['Corporate', 'Welcome Guests']),
-  p('Snow Spider Chrysanthemum Bunch', 599, 'Below1000', 'Snow Spider Chrysanthemum Bunch-599-Below1000.jpg', ['Corporate', 'Welcome Guests']),
-  p('Violet Aster Bunch', 699, 'Below1000', 'Violet Aster Bunch-699-Below1000.jpg', ['Graduation', 'Corporate']),
-  p('Ivory Cushion Mum Bunch', 549, 'Below1000', 'Ivory Cushion Mum Bunch-549-Below1000.jpg', ['Corporate', 'Welcome Guests']),
-  p('Pure Ivory Rose Stems', 599, 'Below1000', 'Pure Ivory Rose Stems-599-Below1000.jpg', ['Corporate', 'Farewell']),
-  p('Daylight White Gerbera Stems', 349, 'Below1000', 'Daylight White Gerbera Stems-349-Below1000.jpg', ['Corporate', 'Welcome Guests']),
+  p('Snow Spider Chrysanthemum', 1000, 'Below1000', 'Snow Spider Chrysanthemum Bunch-599-Below1000.jpg', ['Corporate', 'Welcome Guests']),
+  p('Ivory Cushion Mum Bunch', 1000, 'Below1000', 'Ivory Cushion Mum Bunch-549-Below1000.jpg', ['Corporate', 'Welcome Guests']),
+  p('Swan in Love', 750, 'Below1000', 'Pure Ivory Rose Stems-599-Below1000.jpg', ['Corporate', 'Farewell']),
+  p('Harvest Sunflower & Rose Bouquet', 800, 'Below1000', 'Harvest Sunflower & Rose Bouquet-1699-1000to2000.jpg', ['Birthday', 'Congratulations']),
+  p('Fuchsia Halo Roses', 850, 'Below1000', 'Fuchsia Halo Roses-2499-Above2000.jpg', ["Unique Valentine's Day", 'Christmas']),
 
   // ₹1,000 to ₹2,000
   p('Memory Lane Carnation Photo Bouquet', 1199, '1000to2000', 'Memory Lane Carnation Photo Bouquet-1199-1000to2000.jpg', ['Birthday', 'Romantic']),
@@ -75,7 +72,7 @@ export const PRODUCTS: Product[] = [
   p('Love You Chocolate Surprise Bouquet', 1199, '1000to2000', 'Love You Chocolate Surprise Bouquet-1199-1000to2000.jpg', ['Romantic', 'Birthday']),
   p('Cloud Pompon Chrysanthemums', 1399, '1000to2000', 'Cloud Pompon Chrysanthemums-1399-1000to2000.jpg', ['Thank You', 'Congratulations']),
   p('Periwinkle Hydrangea Haze', 1599, '1000to2000', 'Periwinkle Hydrangea Haze-1599-1000to2000.jpg', ['Thank You', 'Congratulations']),
-  p('Harvest Sunflower & Rose Bouquet', 1699, '1000to2000', 'Harvest Sunflower & Rose Bouquet-1699-1000to2000.jpg', ['Birthday', 'Congratulations']),
+  p('Scarlet Snow Rose Grandeur', 1500, '1000to2000', 'Scarlet Snow Rose Grandeur-1500-1000to2000.jpg', ['Romantic', 'Birthday', 'Congratulations']),
 
   // Above ₹2,000
   p('Lotus Calligraphy Dream', 2499, 'Above2000', 'Lotus Calligraphy Dream-2499-Above2000.jpg', ["Unique Valentine's Day", 'Anniversary']),
@@ -92,8 +89,8 @@ export const PRODUCTS: Product[] = [
   p('Sorbet Rose Medley', 3299, 'Above2000', 'Sorbet Rose Medley-3299-Above2000.jpg', ['Bride-to-be', 'Anniversary']),
   p('Royal Red Rose Tulip Grandeur', 7499, 'Above2000', 'Royal Red Rose Tulip Grandeur-7499-Above2000.jpg', ['Luxurious', "Unique Valentine's Day", 'Christmas']),
   p('Pearl Pink Rose Reverie', 2799, 'Above2000', 'Pearl Pink Rose Reverie-2799-Above2000.jpg', ['Bride-to-be', 'Anniversary']),
-  p('Fuchsia Halo Roses', 2499, 'Above2000', 'Fuchsia Halo Roses-2499-Above2000.jpg', ["Unique Valentine's Day", 'Christmas']),
   p('Rose Petal & Lily Reverie', 4499, 'Above2000', 'Rose Petal & Lily Reverie-4499-Above2000.jpg', ['Anniversary', 'Luxurious', 'Bride-to-be']),
+  p('Berry Oriental Lily Grandeur', 2999, 'Above2000', 'Berry Oriental Lily Grandeur-2999-Above2000.jpg', ['Anniversary', 'Luxurious', 'Bride-to-be']),
 ];
 
 export const PRODUCT_MAP: Record<string, Product> = Object.fromEntries(PRODUCTS.map((x) => [x.id, x]));
