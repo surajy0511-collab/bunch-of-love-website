@@ -2,7 +2,7 @@ import { Check, Share2 } from 'lucide-react';
 import { useState } from 'react';
 import { PRODUCTS } from '../data/products';
 import { ProductCard } from './ProductCard';
-import { Eyebrow, Reveal } from './Reveal';
+import { Reveal } from './Reveal';
 
 const launchIds = [
   'bloom-and-brew',
@@ -36,7 +36,6 @@ export function NewLaunchesSection() {
       <div className="mx-auto max-w-[1180px] px-5 sm:px-8">
         <Reveal className="flex flex-col gap-5 md:flex-row md:items-end md:justify-between">
           <div>
-            <Eyebrow light>Fresh from the Studio</Eyebrow>
             <h2 className="mt-4 font-serif text-4xl leading-none sm:text-5xl">New Launches</h2>
           </div>
           <button
