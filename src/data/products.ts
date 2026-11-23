@@ -7,6 +7,7 @@ export interface Product {
   category: Category;
   image: string;
   occasionTags: string[];
+  description?: string;
 }
 
 export const CATEGORIES: { key: Category; label: string; short: string }[] = [
@@ -23,18 +24,21 @@ export const OCCASIONS: Record<Category, string[]> = {
 
 const slug = (s: string) => s.toLowerCase().replace(/&/g, 'and').replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
 
-const p = (name: string, price: number, category: Category, image: string, occasionTags: string[]): Product => ({
+const p = (name: string, price: number, category: Category, image: string, occasionTags: string[], description?: string): Product => ({
   id: slug(name),
   name,
   price,
   category,
   image,
   occasionTags,
+  description,
 });
 
 // Filenames are the source of truth. Images live in public/images/bouquets/
 export const PRODUCTS: Product[] = [
   // Below ₹1,000
+  p('Bloom & Brew', 199, 'Below1000', 'Bloom-Brew-199-Below1000.png', ['Farewell', 'Welcome Guests'], 'A little coffee, a little bloom. Enjoy a refreshing cold coffee paired with a beautiful bunch of fresh flowers, thoughtfully arranged in a convenient carry tray. Perfect for gifting or treating yourself.'),
+  p('Petals & Brownies', 199, 'Below1000', 'Petals-Brownies-199-Below1000.png', ['Birthday', 'Romantic'], 'A sweet treat with a floral touch. Enjoy delicious chocolate brownies paired with a beautiful bunch of fresh flowers in a handy carry tray. A lovely little surprise for someone special.'),
   p('Sunshine Gerbera Posy', 899, 'Below1000', 'Sunshine Gerbera Posy-899-Below1000.jpg', ['Graduation', 'Farewell', 'Welcome Guests']),
   p('Magenta Mum Burst', 849, 'Below1000', 'Magenta Mum Burst-849-Below1000.jpg', ['Farewell', 'Graduation']),
   p('Pure White Alstroemeria Whisper', 799, 'Below1000', 'Pure White Alstroemeria Whisper-799-Below1000.jpg', ['Corporate', 'Welcome Guests']),

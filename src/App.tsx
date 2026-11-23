@@ -13,6 +13,7 @@ import Home from './pages/Home';
 function ScrollToTop() {
   const { pathname } = useLocation();
   useEffect(() => {
+    if (pathname === '/new-launches') return;
     getLenis()?.scrollTo(0, { immediate: true });
     window.scrollTo(0, 0);
   }, [pathname]);
@@ -32,6 +33,7 @@ export default function App() {
         <main id="main">
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/new-launches" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="*" element={<Home />} />
           </Routes>

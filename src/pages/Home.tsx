@@ -4,6 +4,7 @@ import { BulkBookingSection } from '../components/BulkBookingSection';
 import { CustomBouquetSection } from '../components/CustomBouquetSection';
 import { HeroSection } from '../components/HeroSection';
 import { Marquee } from '../components/Marquee';
+import { NewLaunchesSection } from '../components/NewLaunchesSection';
 import { PriceCategorySection } from '../components/PriceCategorySection';
 import { ProductGrid } from '../components/ProductGrid';
 import { TestimonialsSection } from '../components/TestimonialsSection';
@@ -20,10 +21,11 @@ export default function Home() {
 
   useEffect(() => {
     const target = (location.state as { scrollTo?: string } | null)?.scrollTo;
-    if (!target) return;
-    const t = setTimeout(() => scrollToId(target), 150);
+    const targetId = target ?? (location.pathname === '/new-launches' ? 'new-launches' : null);
+    if (!targetId) return;
+    const t = setTimeout(() => scrollToId(targetId), 250);
     return () => clearTimeout(t);
-  }, [location.state]);
+  }, [location.state, location.pathname]);
 
   return (
     <>
@@ -35,6 +37,7 @@ export default function Home() {
           scrollToId('collections');
         }}
       />
+      <NewLaunchesSection />
       <ProductGrid category={category} setCategory={setCategory} />
       <CustomBouquetSection />
       <TestimonialsSection />

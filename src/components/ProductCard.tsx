@@ -28,7 +28,11 @@ export function ProductCard({ product }: { product: Product }) {
           src={bouquetSrc(product.image)}
           alt={`${product.name} bouquet by Bunch of Love`}
           className="aspect-[4/5] w-full"
-          imgClassName="transition-transform duration-[1.1s] ease-out group-hover:scale-[1.06]"
+          imgClassName={
+            product.id === 'bloom-and-brew' || product.id === 'petals-and-brownies'
+              ? 'object-contain'
+              : 'transition-transform duration-[1.1s] ease-out group-hover:scale-[1.06]'
+          }
         />
         <span className="absolute bottom-2 right-2 flex h-8 w-8 items-center justify-center bg-ivory/90 text-ink transition-opacity duration-300 md:opacity-0 md:group-hover:opacity-100">
           <Maximize2 className="h-3.5 w-3.5" strokeWidth={1.5} />

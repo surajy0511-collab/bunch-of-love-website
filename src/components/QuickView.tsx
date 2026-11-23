@@ -63,6 +63,9 @@ export function QuickView() {
                   </div>
                 </div>
               )}
+              {p.description && (
+                <p className="mt-6 text-sm leading-relaxed text-ink/70">{p.description}</p>
+              )}
               <p className="mt-6 text-sm leading-relaxed text-ink/70">Handcrafted to order by Bunch of Love in Bengaluru and delivered within 24–48 hours. Availability is confirmed with you on WhatsApp.</p>
               <button
                 onClick={() => {
