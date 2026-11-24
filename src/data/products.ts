@@ -64,7 +64,7 @@ export const PRODUCTS: Product[] = [
   p('Cream Rose Petite Wrap', 200, 'Below1000', 'Cream Rose Petite Wrap-200-Below1000.jpg', ['Farewell', 'Welcome Guests'], "Soft ivory roses nestled in baby's breath, wrapped in textured cream paper with a curled white ribbon."),
   p('Blush Pink Rose Cones', 599, 'Below1000', 'Blush Pink Rose Cones-599-Below1000.jpg', ['Birthday', 'Romantic'], "Blush pink roses paired with baby's breath in classic brown kraft paper cones."),
   p('Magenta Chrysanthemum Bunch', 200, 'Below1000', 'Magenta Chrysanthemum Bunch-200-Below1000.jpg', ['Farewell', 'Welcome Guests'], 'Lush cluster of purple-pink button chrysanthemums wrapped in kraft paper with a polka-dot plum ribbon.'),
-  p('Pink Gerbera Kraft Cone', 399, 'Below1000', 'Pink Gerbera Kraft Cone-399-Below1000.jpg', ['Farewell', 'Graduation'], "Single pastel pink gerbera daisy with baby's breath wrapped in vintage newsprint-style kraft paper and black ribbon."),
+  p('Pink Gerbera Kraft Cone', 249, 'Below1000', 'Pink Gerbera Kraft Cone-249-Below1000.jpg', ['Farewell', 'Graduation'], "Single pastel pink gerbera daisy with baby's breath wrapped in vintage newsprint-style kraft paper and black ribbon."),
 
   // ₹1,000 to ₹2,000
   p('Memory Lane Carnation Photo Bouquet', 1199, '1000to2000', 'Memory Lane Carnation Photo Bouquet-1199-1000to2000.jpg', ['Birthday', 'Romantic']),
